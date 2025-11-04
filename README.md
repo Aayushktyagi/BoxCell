@@ -1,7 +1,7 @@
 # BoxCell: Leveraging SAM for Cell Segmentation with Box Supervision
 
 
-Official implementation of **BoxCell: Leveraging SAM for Cell Segmentation with Box Supervision** published in *Nature Scientific Reports*.
+Official implementation of **BoxCell: Leveraging SAM for Cell Segmentation with Box Supervision** published in *Nature Scientific Reports* [paper](https://arxiv.org/pdf/2311.17960).
 
 ## 📖 Abstract
 
@@ -63,6 +63,7 @@ pip install scikit-image opencv-python matplotlib
 pip install scipy numpy tqdm
 pip install monai
 ```
+Additionally, install dependencies from [SAM](https://github.com/facebookresearch/segment-anything.git)
 
 3. **Install optimization solvers**:
 
